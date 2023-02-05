@@ -1,8 +1,11 @@
 body {
     display: flex;
+    flex-direction: column;
+    
     flex: 1;
     margin: 0;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -26,6 +29,7 @@ li {
     flex-direction: row;
     justify-content: space-between;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 /*forehead*/
@@ -67,3 +71,49 @@ li {
 }
 /*end of forehead*/
 
+.welcome {
+    display: flex;
+    padding: 40px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.welcome .left {
+    margin-left: auto;
+}
+
+.welcome .right {
+    margin-right: auto;
+}
+
+.welcome .nadpis {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+.welcome .text {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 400px;
+}
+
+.welcome .button {
+    border-radius: 15px;
+    background-color: rgb(0, 119, 255);
+    border: 0;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.welcome .img {
+    max-width: 400px;
+    max-height: auto;
+    box-shadow: 5px #1F2937;
+}
